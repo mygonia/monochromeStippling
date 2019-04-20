@@ -18,3 +18,12 @@ This uses the PIL module.
 7. The shade of the pixel in the source determines the likelihood of its corresponding pixel in the new image being filled in
 
 8. Repeated for all pixels until finished
+
+<h1>Example</h1>
+The repository contains three additional files as an example: ricePaddy.jpg, ricePaddyMonochrome.png, and ricePaddyStippled.png
+
+ricePaddy is the source image obtained from Pixabay on https://www.pexels.com/photo/scenic-view-of-rice-paddy-247599/
+
+ricePaddyMonochrome is the image converted into monochrome
+
+ricePaddyStippled in the final, processed image made to look like it made using a stippling technique

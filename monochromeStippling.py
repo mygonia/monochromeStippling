@@ -4,13 +4,13 @@ from PIL import Image
 from PIL import ImageColor
 
 
-img = Image.open(r'C:\Users\Marius Ygonia\pythonScripts\grayscaleBar.jpg')
+img = Image.open(r'C:\Users\Marius Ygonia\pythonScripts\ricePaddy.jpg')
 img = img.convert('LA')
 
 width, height = img.size
 print('stippling...')
 
-img.save('Monochrome.png')
+img.save('ricePaddyMonochrome.png')
 imgNew = Image.new('LA', (width, height))
 
 for x in range(width):
@@ -47,4 +47,4 @@ for x in range(width):
                 imgNew.putpixel( (x,y), (0, 255))
             continue
 
-imgNew.save('grayscaleBar.png')
+imgNew.save('ricePaddyStippled.png')

@@ -17,7 +17,7 @@ This uses the PIL module.
 
 7. The shade of the pixel in the source determines the likelihood of its corresponding pixel in the new image being filled in
 
-8. Repeated for all pixels until finished
+8. Repeat for all pixels until finished
 
 <h1>Example</h1>
 The repository contains three additional files as an example: ricePaddy.jpg, ricePaddyMonochrome.png, and ricePaddyStippled.png

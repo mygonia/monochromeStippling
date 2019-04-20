@@ -22,6 +22,7 @@ This uses the PIL module.
 <h1>Example</h1>
 The repository contains three additional files as an example: ricePaddy.jpg, ricePaddyMonochrome.png, and ricePaddyStippled.png
 
+
 ricePaddy is the source image obtained from Pixabay on https://www.pexels.com/photo/scenic-view-of-rice-paddy-247599/
 
 ricePaddyMonochrome is the image converted into monochrome

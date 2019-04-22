@@ -7,12 +7,6 @@ import math
 img = Image.open(r'C:\Users\Marius Ygonia\pythonScripts\ricePaddy.jpg')
 img = img.convert('LA')
 
-def roundDown(x):
-    return int(math.floor(x / 10.0)) * 10
-
-def dotIt():
-    imgNew.putpixel( (x,y), (0, 255))
-
 width, height = img.size
 imgNew = Image.new('LA', (width, height))
 
@@ -23,7 +17,7 @@ for x in range(width):
         point = img.getpixel( (x,y) )[0]
         randNum = random.randint(0, 260)
         if randNum >= point:
-            dotIt()
+            imgNew.putpixel( (x,y), (0, 255))
             
 
 imgNew.save('ricePaddyStippled3.png')

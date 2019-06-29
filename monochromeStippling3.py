@@ -4,7 +4,7 @@ from PIL import Image
 from PIL import ImageColor
 import math
 
-img = Image.open(r'C:\Users\Marius Ygonia\pythonScripts\ricePaddy.jpg')
+img = Image.open(r'ricePaddy.jpg')
 img = img.convert('LA')
 
 width, height = img.size
